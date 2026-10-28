@@ -1,0 +1,25 @@
+# Virtual environment
+
+venv/
+**/venv/
+
+# Environment variables and secrets
+
+.env
+**/.env
+
+# MLflow files
+
+mlflow.db
+mlflow.db-*
+mlruns/
+
+# Python cache
+
+**pycache**/
+**/**pycache**/
+*.py[cod]
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
